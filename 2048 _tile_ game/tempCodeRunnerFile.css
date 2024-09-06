@@ -1,0 +1,9 @@
+body { 
+    background-color: #dda15e; 
+    color: var(--primary-text-color); 
+    min-height: 100vh; 
+} 
+.tile-2048{
+    font-weight: bold;
+    font-size: 3rem;
+}

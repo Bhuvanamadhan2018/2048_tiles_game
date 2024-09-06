@@ -15,7 +15,10 @@ body {
     color: var(--primary-text-color); 
     min-height: 100vh; 
 } 
-  
+.tile-2048{
+    font-weight: bold;
+    font-size: 3rem;
+}
 .container { 
     width: 400px; 
     display: flex; 
@@ -32,7 +35,7 @@ body {
     width: 100%; 
     display: flex; 
     align-items: center; 
-    justify-content: space-evenly; 
+    justify-content:center; 
     flex-wrap: wrap; 
     font-size: 2rem; 
     text-align: center; 
@@ -40,11 +43,11 @@ body {
 } 
   
 .score-title { 
-    width: 50%; 
+    width: 30%; 
 } 
   
 .score-value { 
-    width: 50%; 
+    width: 30%; 
 } 
   
 .result { 
