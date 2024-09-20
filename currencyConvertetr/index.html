@@ -1,29 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<title>Currency Converter</title>
-	<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-	<h1>Currency Converter</h1>
-	<form>
-		<label for="amount">Amount:</label>
-		<input type="number" id="amount" required>
-		<label for="fromCurrency">From:</label>
-		<select id="fromCurrency">
-			<option value="USD">USD</option>
-			<option value="INR">INR</option>
-		</select>
-		<label for="toCurrency">To:</label>
-		<select id="toCurrency">
-			<option value="USD">USD</option>
-			<option value="INR">INR</option>
-		</select>
-		<button id="convertBtn">Convert</button>
-		<p id="result"></p>
-	</form>
-	<script src="script.js"></script>
+    <script src="script.js"></script>
+    <main class="container">
+        <header>
+            <h2>Currency Converter</h2>
+        </header>
+
+        <article class="currency-converter">
+
+            <section class="input-fields">
+                <label for="fromCurrency">From</label>
+                <select name="fromCurrency" id="fromCurrency">
+
+                </select>
+                <label for="toCurrency">To</label>
+                <select name="toCurrency" id="toCurrency"></select>
+                <label for="amount">Amount</label>
+
+                <input placeholder="Enter Amount" type="number" id="amount" name="amount" value="Enter Amount">
+                <label for="result">Result</label>
+                <input name="result" id="result" type="text" readonly>
+            </section>
+
+            <section class="button">
+                <button id="convert">Convert</button>
+            </section>
+
+
+        </article>
+        
+    </main>
 </body>
+
 </html>
-
-

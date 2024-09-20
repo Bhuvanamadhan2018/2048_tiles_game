@@ -1,46 +1,55 @@
-
-
-body {
-	font-family: Arial, sans-serif;
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
+  gap: 16px;
 }
 
-form {
-	width: 50%;
-	margin: 40px auto;
-	padding: 20px;
-	background-color: #f9f9f9;
-	border: 1px solid #ccc;
-	border-radius: 10px;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+header{
+  padding: 8px 16px;
+  text-align: center;
+  border-bottom: 1px solid;
 }
 
-label {
-	display: block;
-	margin-bottom: 10px;
+
+
+
+.currency-converter {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  width: 400px;
+  box-shadow: 2px 2px 5px 3px;
+  margin: 0 auto;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: darkslateblue;
+  color: white;
 }
 
-input, select {
-	width: 100%;
-	padding: 10px;
-	margin-bottom: 20px;
-	border: 1px solid #ccc;
-	border-radius: 5px;
+.input-fields {
+  flex-direction: column;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: start;
 }
 
-button {
-	background-color: #4CAF50;
-	color: #fff;
-	padding: 10px 20px;
-	border: none;
-	border-radius: 5px;
-	cursor: pointer;
+.input-fields input,
+.input-fields select {
+  width: 100%;
+  padding: 8px;
 }
 
-button:hover {
-	background-color: #3e8e41;
+.button {
+  display: grid;
+  place-content: center;
 }
-
-#result {
-	margin-top: 20px;
+.button > button {
+  padding: 8px;
 }
 
