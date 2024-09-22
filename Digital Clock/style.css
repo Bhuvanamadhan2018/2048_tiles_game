@@ -1,0 +1,30 @@
+body{
+    background:rgb(22, 220, 164) ;
+
+}
+.clock{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+    font-size: 80px;
+    color: white;
+    background: rgb(190, 93, 93);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px -2px rgb(181, 199, 13);
+    width: 500px ;
+
+}
+.h-m-s{
+    position: absolute;
+    top: 64%;
+    left: 50%;
+    transform: translate(-50% -50%);
+    font-size: 20px;
+    display: flex;
+    justify-content:space-between ;
+    align-items:center;
+    
+
+}
