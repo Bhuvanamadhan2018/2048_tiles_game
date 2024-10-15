@@ -1,9 +1,10 @@
 body {
   font-size: 1.5rem;
+  
 }
 .container {
   max-width: 500px;
-  margin: 200px auto;
+  margin: 200px auto ;
   border: 1px solid; 
   padding: 16px;
   background-color: rgb(54, 235, 217);
@@ -13,8 +14,8 @@ body {
   text-align: center;
 }
 #intro{
-    text-align: center;
-}
+    text-align: center; 
+}  
 input {
   padding: 8px;
 }
