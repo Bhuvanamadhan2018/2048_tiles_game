@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+    <form id="task-form">
+        <h4>Task Manager</h4>
+        <input type="text" id="task-title" placeholder="Write Down your Task...">
+        <textarea id="task-description" placeholder="Describe Your Task Here"></textarea>
+        <input type="date" id="task-deadline">
+        <select id="task-priority">
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+        </select>
+        <select id="task-category">
+            <option value="work">Work</option>
+            <option value="personal">Personal</option>
+        </select>
+        <button id="create-task-btn">Add Task</button>
+        <hr>
+        <div id="task-list">
+            <h4>Task-List</h4>
+            <ul id="tasks"></ul>
+        </div>
+        <div id="completed-task-list">
+            <h4>Completed Tasks</h4>
+            <ul id="completed-tasks"></ul>
+        </div>
+    </form>
+    <script src="main.js"></script>
+</body>
+</html>
+
