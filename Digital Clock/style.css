@@ -1,12 +1,12 @@
 body{
-    background:rgb(22, 220, 164) ;
+    background:rgb(22, 220, 164);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
 
 }
 .clock{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50% -50%);
     font-size: 80px;
     color: white;
     background: rgb(190, 93, 93);
